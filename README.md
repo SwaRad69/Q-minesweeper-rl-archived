@@ -1,7 +1,21 @@
-# 🚫 Minesweeper RL (Archived)
+# Non AI text - "
 
-> **This project is no longer maintained.** The repository has been archived
-> for reference purposes only. No further development or bug fixes are planned.
+My intention for this project was to make benchmarks for minesweeper using classical and quantum reinforcement learning which can play minesweeper in minesweeper.online. 
+I was supper hooked while I started this project when i was hooked playing minesweeper and i was desparate for a proeject. I lost interest afterwards. GGZ.
+
+player profile : https://minesweeper.online/player/55188183
+
+
+
+
+
+
+
+"
+
+
+
+# 🚫 Minesweeper RL (Archived)
 
 Reinforcement-learning platform that uses the real Minesweeper website as its
 environment. Quantum and local-simulator components are intentionally not
