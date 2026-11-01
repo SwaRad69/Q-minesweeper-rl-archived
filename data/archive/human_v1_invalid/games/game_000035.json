@@ -1,0 +1,68 @@
+{
+  "action_counts": {
+    "chord": 0,
+    "flag": 0,
+    "open": 1
+  },
+  "action_encoding": "action_type*cells+cell",
+  "action_space": "flags",
+  "action_types": {
+    "0": "open",
+    "1": "flag",
+    "2": "chord"
+  },
+  "cells": 480,
+  "complete": true,
+  "derived_fields": [
+    "reward",
+    "newly_revealed",
+    "opened_cells"
+  ],
+  "difficulty": "expert",
+  "duration_s": 0.0018894672393798828,
+  "ended_at": 1789182528.8866706,
+  "environment": "minesweeper.online",
+  "environment_version": "minesweeper.online/expert",
+  "final_opened_cells": 169,
+  "first_move": null,
+  "format": "minesweeper_human_game",
+  "format_version": 2,
+  "game_id": "game_000035",
+  "game_index": 35,
+  "height": 16,
+  "mines": 99,
+  "num_actions": 1440,
+  "observation_representation": "flag_aware_v1",
+  "observation_version": 1,
+  "other_clicks": 0,
+  "outcome": "lost",
+  "recorder_version": 1,
+  "result": "lost",
+  "reward_spec": "reveal_progress_terminal_v1",
+  "source": "human",
+  "started_at": 1789182528.8847811,
+  "total_steps": 1,
+  "transitions": [
+    {
+      "action": {
+        "action_id": 8,
+        "action_type": 0,
+        "cell_index": 8,
+        "type": "open",
+        "x": 8,
+        "y": 0
+      },
+      "game_status": "lost",
+      "newly_revealed": 0,
+      "observation_after": "AQL+AQAAAf7/////////////////////////////Af4CAQAAAgT/////////////////////////////AQEBAQECAv7+AgEBAf//////////////////////AAAAAf4D/gQCAQABA///////////////////////AQEAAQED/gMBAgED/v///////////////////////gEAAAABAQP+A/4E/v8D////////////////////AgMDAgEAAAP+BAL+AwIC////////////////////Av7+/gEAAQP+AgEBAv8C////////////////////////AwEAAf4CAQECBP//////////////////////////AwEAAQEBAAH+/v7//////////////////////////gEAAAAAAAECBP4E////////////////////////AwIBAAAAAAAAAQL+AwT/////////////////////Av4CAAEBAQEBAQEBAv7/////////////////////A/4CAAH+AQH+AQAAAQID////////////////////AgEBAAEBAQICAwEBAAH/////////////////////AQAAAAAAAAH+Av4BAAH/////////////////",
+      "observation_before": "AQL+AQAAAf7/////////////////////////////Af4CAQAAAgT/////////////////////////////AQEBAQECAv7+AgEBAf//////////////////////AAAAAf4D/gQCAQABA///////////////////////AQEAAQED/gMBAgED/v///////////////////////gEAAAABAQP+A/4E/v8D////////////////////AgMDAgEAAAP+BAL+AwIC////////////////////Av7+/gEAAQP+AgEBAv8C////////////////////////AwEAAf4CAQECBP//////////////////////////AwEAAQEBAAH+/v7//////////////////////////gEAAAAAAAECBP4E////////////////////////AwIBAAAAAAAAAQL+AwT/////////////////////Av4CAAEBAQEBAQEBAv7/////////////////////A/4CAAH+AQH+AQAAAQID////////////////////AgEBAAEBAQICAwEBAAH/////////////////////AQAAAAAAAAH+Av4BAAH/////////////////",
+      "opened_cells": 169,
+      "reward": -10.0,
+      "step": 0,
+      "terminated": true,
+      "timestamp": 1789182528.8866706,
+      "truncated": false
+    }
+  ],
+  "width": 30
+}

@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+*.egg
+dist/
+build/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Project-specific temp files
+.test-tmp-*
+browser_profile/
+runs/
+*.log
+
+# Agents / Antigravity
+.agents/
+.gemini/
+
+# Large session files
+session-*.md
+
+# Datasets and experiment outputs (too large for git)
+datasets/
+experiments/
+data/human/*.npz

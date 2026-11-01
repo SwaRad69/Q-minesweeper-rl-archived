@@ -1,0 +1,14 @@
+{
+  "board": {
+    "height": 16,
+    "mines": 99,
+    "width": 30
+  },
+  "created_at": 1789139821.9926188,
+  "game_count": 2,
+  "game_seq": 3,
+  "name": "_validate",
+  "schema_version": 1,
+  "transition_count": 37,
+  "updated_at": 1789139988.913693
+}

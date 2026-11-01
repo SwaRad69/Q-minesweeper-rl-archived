@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "minesweeper-rl"
+version = "0.1.0"
+description = "Browser-based Minesweeper environment for reinforcement learning research"
+requires-python = ">=3.11"
+dependencies = [
+    "numpy>=1.26",
+    "playwright>=1.46",
+    "torch>=2.0",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=8.0"]
+plot = ["matplotlib>=3.8"]
+
+[tool.pytest.ini_options]
+addopts = "-ra"
+markers = [
+    "live: tests that access and may mutate the real Minesweeper website",
+]
+testpaths = ["tests"]
+
+[tool.setuptools.packages.find]
+where = ["src"]

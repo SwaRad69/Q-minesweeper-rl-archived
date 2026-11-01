@@ -1,0 +1,36 @@
+{
+  "action_encoding": "action_type*cells+cell",
+  "action_space": "flags",
+  "action_types": {
+    "0": "open",
+    "1": "flag",
+    "2": "chord"
+  },
+  "board": {
+    "difficulty": "expert",
+    "height": 16,
+    "mines": 99,
+    "width": 30
+  },
+  "cells": 480,
+  "created_at": 1789974106.1603851,
+  "derived_fields": [
+    "reward",
+    "newly_revealed",
+    "opened_cells"
+  ],
+  "environment": "minesweeper.online",
+  "environment_version": "minesweeper.online/expert",
+  "format": "minesweeper_human_dataset",
+  "format_version": 2,
+  "game_count": 0,
+  "next_game_index": 1,
+  "num_actions": 1440,
+  "observation_representation": "flag_aware_v1",
+  "observation_version": 1,
+  "recorder_version": 3,
+  "reward_spec": "reveal_progress_terminal_v1",
+  "source": "human",
+  "transition_count": 0,
+  "updated_at": 1789974106.1603851
+}

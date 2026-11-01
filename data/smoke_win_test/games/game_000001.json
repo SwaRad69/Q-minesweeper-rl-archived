@@ -1,0 +1,289 @@
+{
+  "action_counts": {
+    "chord": 1,
+    "flag": 7,
+    "open": 4
+  },
+  "action_encoding": "action_type*cells+cell",
+  "action_space": "flags",
+  "action_types": {
+    "0": "open",
+    "1": "flag",
+    "2": "chord"
+  },
+  "cells": 81,
+  "complete": false,
+  "derived_fields": [
+    "reward",
+    "newly_revealed",
+    "opened_cells"
+  ],
+  "difficulty": "beginner",
+  "duration_s": 15.417879819869995,
+  "ended_at": 1789975987.4569592,
+  "environment": "minesweeper.online",
+  "environment_version": "minesweeper.online/expert",
+  "final_opened_cells": 58,
+  "first_move": null,
+  "format": "minesweeper_human_game",
+  "format_version": 2,
+  "game_id": "game_000001",
+  "game_index": 1,
+  "height": 9,
+  "mines": 10,
+  "num_actions": 243,
+  "observation_representation": "flag_aware_v1",
+  "observation_version": 1,
+  "other_clicks": 0,
+  "outcome": "incomplete",
+  "recorder_version": 3,
+  "result": "incomplete",
+  "reward_spec": "reveal_progress_terminal_v1",
+  "source": "human",
+  "started_at": 1789975972.0390794,
+  "termination_reason": "unattributed_board_change",
+  "total_steps": 12,
+  "transitions": [
+    {
+      "action": {
+        "action_id": 0,
+        "action_type": 0,
+        "cell_index": 0,
+        "type": "open",
+        "x": 0,
+        "y": 0
+      },
+      "game_status": "running",
+      "newly_revealed": 54,
+      "observation_after": "AAAAAAH/AQAAAAAAAAEBAQAAAAAAAAAAAAAAAAAAAAEBAQAAAAAAAAL/AgAAAQECAQT/AwAA////////AwEB////////////////////////",
+      "observation_before": "////////////////////////////////////////////////////////////////////////////////////////////////////////////",
+      "opened_cells": 54,
+      "reward": 54.0,
+      "step": 0,
+      "terminated": false,
+      "timestamp": 1789975972.0422418,
+      "truncated": false
+    },
+    {
+      "action": {
+        "action_id": 86,
+        "action_type": 1,
+        "cell_index": 5,
+        "type": "flag",
+        "x": 5,
+        "y": 0
+      },
+      "game_status": "running",
+      "newly_revealed": 0,
+      "observation_after": "AAAAAAH+AQAAAAAAAAEBAQAAAAAAAAAAAAAAAAAAAAEBAQAAAAAAAAL/AgAAAQECAQT/AwAA////////AwEB////////////////////////",
+      "observation_before": "AAAAAAH/AQAAAAAAAAEBAQAAAAAAAAAAAAAAAAAAAAEBAQAAAAAAAAL/AgAAAQECAQT/AwAA////////AwEB////////////////////////",
+      "opened_cells": 54,
+      "reward": 0.0,
+      "step": 1,
+      "terminated": false,
+      "timestamp": 1789975972.852465,
+      "truncated": false
+    },
+    {
+      "action": {
+        "action_id": 122,
+        "action_type": 1,
+        "cell_index": 41,
+        "type": "flag",
+        "x": 5,
+        "y": 4
+      },
+      "game_status": "running",
+      "newly_revealed": 0,
+      "observation_after": "AAAAAAH+AQAAAAAAAAEBAQAAAAAAAAAAAAAAAAAAAAEBAQAAAAAAAAL+AgAAAQECAQT/AwAA////////AwEB////////////////////////",
+      "observation_before": "AAAAAAH+AQAAAAAAAAEBAQAAAAAAAAAAAAAAAAAAAAEBAQAAAAAAAAL/AgAAAQECAQT/AwAA////////AwEB////////////////////////",
+      "opened_cells": 54,
+      "reward": 0.0,
+      "step": 2,
+      "terminated": false,
+      "timestamp": 1789975973.1702168,
+      "truncated": false
+    },
+    {
+      "action": {
+        "action_id": 131,
+        "action_type": 1,
+        "cell_index": 50,
+        "type": "flag",
+        "x": 5,
+        "y": 5
+      },
+      "game_status": "running",
+      "newly_revealed": 0,
+      "observation_after": "AAAAAAH+AQAAAAAAAAEBAQAAAAAAAAAAAAAAAAAAAAEBAQAAAAAAAAL+AgAAAQECAQT+AwAA////////AwEB////////////////////////",
+      "observation_before": "AAAAAAH+AQAAAAAAAAEBAQAAAAAAAAAAAAAAAAAAAAEBAQAAAAAAAAL+AgAAAQECAQT/AwAA////////AwEB////////////////////////",
+      "opened_cells": 54,
+      "reward": 0.0,
+      "step": 3,
+      "terminated": false,
+      "timestamp": 1789975973.4521735,
+      "truncated": false
+    },
+    {
+      "action": {
+        "action_id": 140,
+        "action_type": 1,
+        "cell_index": 59,
+        "type": "flag",
+        "x": 5,
+        "y": 6
+      },
+      "game_status": "running",
+      "newly_revealed": 0,
+      "observation_after": "AAAAAAH+AQAAAAAAAAEBAQAAAAAAAAAAAAAAAAAAAAEBAQAAAAAAAAL+AgAAAQECAQT+AwAA///////+AwEB////////////////////////",
+      "observation_before": "AAAAAAH+AQAAAAAAAAEBAQAAAAAAAAAAAAAAAAAAAAEBAQAAAAAAAAL+AgAAAQECAQT+AwAA////////AwEB////////////////////////",
+      "opened_cells": 54,
+      "reward": 0.0,
+      "step": 4,
+      "terminated": false,
+      "timestamp": 1789975973.9922018,
+      "truncated": false
+    },
+    {
+      "action": {
+        "action_id": 56,
+        "action_type": 0,
+        "cell_index": 56,
+        "type": "open",
+        "x": 2,
+        "y": 6
+      },
+      "game_status": "running",
+      "newly_revealed": 1,
+      "observation_after": "AAAAAAH+AQAAAAAAAAEBAQAAAAAAAAAAAAAAAAAAAAEBAQAAAAAAAAL+AgAAAQECAQT+AwAA//8D///+AwEB////////////////////////",
+      "observation_before": "AAAAAAH+AQAAAAAAAAEBAQAAAAAAAAAAAAAAAAAAAAEBAQAAAAAAAAL+AgAAAQECAQT+AwAA///////+AwEB////////////////////////",
+      "opened_cells": 55,
+      "reward": 1.0,
+      "step": 5,
+      "terminated": false,
+      "timestamp": 1789975975.5288339,
+      "truncated": false
+    },
+    {
+      "action": {
+        "action_id": 136,
+        "action_type": 1,
+        "cell_index": 55,
+        "type": "flag",
+        "x": 1,
+        "y": 6
+      },
+      "game_status": "running",
+      "newly_revealed": 0,
+      "observation_after": "AAAAAAH+AQAAAAAAAAEBAQAAAAAAAAAAAAAAAAAAAAEBAQAAAAAAAAL+AgAAAQECAQT+AwAA//4D///+AwEB////////////////////////",
+      "observation_before": "AAAAAAH+AQAAAAAAAAEBAQAAAAAAAAAAAAAAAAAAAAEBAQAAAAAAAAL+AgAAAQECAQT+AwAA//8D///+AwEB////////////////////////",
+      "opened_cells": 55,
+      "reward": 0.0,
+      "step": 6,
+      "terminated": false,
+      "timestamp": 1789975975.886619,
+      "truncated": false
+    },
+    {
+      "action": {
+        "action_id": 138,
+        "action_type": 1,
+        "cell_index": 57,
+        "type": "flag",
+        "x": 3,
+        "y": 6
+      },
+      "game_status": "running",
+      "newly_revealed": 0,
+      "observation_after": "AAAAAAH+AQAAAAAAAAEBAQAAAAAAAAAAAAAAAAAAAAEBAQAAAAAAAAL+AgAAAQECAQT+AwAA//4D/v/+AwEB////////////////////////",
+      "observation_before": "AAAAAAH+AQAAAAAAAAEBAQAAAAAAAAAAAAAAAAAAAAEBAQAAAAAAAAL+AgAAAQECAQT+AwAA//4D///+AwEB////////////////////////",
+      "opened_cells": 55,
+      "reward": 0.0,
+      "step": 7,
+      "terminated": false,
+      "timestamp": 1789975976.0293682,
+      "truncated": false
+    },
+    {
+      "action": {
+        "action_id": 210,
+        "action_type": 2,
+        "cell_index": 48,
+        "type": "chord",
+        "x": 3,
+        "y": 5
+      },
+      "game_status": "running",
+      "newly_revealed": 1,
+      "observation_after": "AAAAAAH+AQAAAAAAAAEBAQAAAAAAAAAAAAAAAAAAAAEBAQAAAAAAAAL+AgAAAQECAQT+AwAA//4D/gT+AwEB////////////////////////",
+      "observation_before": "AAAAAAH+AQAAAAAAAAEBAQAAAAAAAAAAAAAAAAAAAAEBAQAAAAAAAAL+AgAAAQECAQT+AwAA//4D/v/+AwEB////////////////////////",
+      "opened_cells": 56,
+      "reward": 1.0,
+      "step": 8,
+      "terminated": false,
+      "timestamp": 1789975976.5086396,
+      "truncated": false
+    },
+    {
+      "action": {
+        "action_id": 54,
+        "action_type": 0,
+        "cell_index": 54,
+        "type": "open",
+        "x": 0,
+        "y": 6
+      },
+      "game_status": "running",
+      "newly_revealed": 1,
+      "observation_after": "AAAAAAH+AQAAAAAAAAEBAQAAAAAAAAAAAAAAAAAAAAEBAQAAAAAAAAL+AgAAAQECAQT+AwAAAv4D/gT+AwEB////////////////////////",
+      "observation_before": "AAAAAAH+AQAAAAAAAAEBAQAAAAAAAAAAAAAAAAAAAAEBAQAAAAAAAAL+AgAAAQECAQT+AwAA//4D/gT+AwEB////////////////////////",
+      "opened_cells": 57,
+      "reward": 1.0,
+      "step": 9,
+      "terminated": false,
+      "timestamp": 1789975978.0723445,
+      "truncated": false
+    },
+    {
+      "action": {
+        "action_id": 69,
+        "action_type": 0,
+        "cell_index": 69,
+        "type": "open",
+        "x": 6,
+        "y": 7
+      },
+      "game_status": "running",
+      "newly_revealed": 1,
+      "observation_after": "AAAAAAH+AQAAAAAAAAEBAQAAAAAAAAAAAAAAAAAAAAEBAQAAAAAAAAL+AgAAAQECAQT+AwAAAv4D/gT+AwEB////////Av//////////////",
+      "observation_before": "AAAAAAH+AQAAAAAAAAEBAQAAAAAAAAAAAAAAAAAAAAEBAQAAAAAAAAL+AgAAAQECAQT+AwAAAv4D/gT+AwEB////////////////////////",
+      "opened_cells": 58,
+      "reward": 1.0,
+      "step": 10,
+      "terminated": false,
+      "timestamp": 1789975980.1321368,
+      "truncated": false
+    },
+    {
+      "action": {
+        "action_id": 151,
+        "action_type": 1,
+        "cell_index": 70,
+        "type": "flag",
+        "x": 7,
+        "y": 7
+      },
+      "game_status": "running",
+      "newly_revealed": 0,
+      "observation_after": "AAAAAAH+AQAAAAAAAAEBAQAAAAAAAAAAAAAAAAAAAAEBAQAAAAAAAAL+AgAAAQECAQT+AwAAAv4D/gT+AwEB////////Av7/////////////",
+      "observation_before": "AAAAAAH+AQAAAAAAAAEBAQAAAAAAAAAAAAAAAAAAAAEBAQAAAAAAAAL+AgAAAQECAQT+AwAAAv4D/gT+AwEB////////Av//////////////",
+      "opened_cells": 58,
+      "reward": 0.0,
+      "step": 11,
+      "terminated": false,
+      "timestamp": 1789975983.404382,
+      "truncated": false
+    }
+  ],
+  "width": 9
+}

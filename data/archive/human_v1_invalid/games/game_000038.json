@@ -1,0 +1,68 @@
+{
+  "action_counts": {
+    "chord": 0,
+    "flag": 0,
+    "open": 1
+  },
+  "action_encoding": "action_type*cells+cell",
+  "action_space": "flags",
+  "action_types": {
+    "0": "open",
+    "1": "flag",
+    "2": "chord"
+  },
+  "cells": 480,
+  "complete": true,
+  "derived_fields": [
+    "reward",
+    "newly_revealed",
+    "opened_cells"
+  ],
+  "difficulty": "expert",
+  "duration_s": 0.015758275985717773,
+  "ended_at": 1789182548.1865323,
+  "environment": "minesweeper.online",
+  "environment_version": "minesweeper.online/expert",
+  "final_opened_cells": 58,
+  "first_move": null,
+  "format": "minesweeper_human_game",
+  "format_version": 2,
+  "game_id": "game_000038",
+  "game_index": 38,
+  "height": 16,
+  "mines": 99,
+  "num_actions": 1440,
+  "observation_representation": "flag_aware_v1",
+  "observation_version": 1,
+  "other_clicks": 0,
+  "outcome": "lost",
+  "recorder_version": 1,
+  "result": "lost",
+  "reward_spec": "reveal_progress_terminal_v1",
+  "source": "human",
+  "started_at": 1789182548.170774,
+  "total_steps": 1,
+  "transitions": [
+    {
+      "action": {
+        "action_id": 450,
+        "action_type": 0,
+        "cell_index": 450,
+        "type": "open",
+        "x": 0,
+        "y": 15
+      },
+      "game_status": "lost",
+      "newly_revealed": 0,
+      "observation_after": "AAAAAAH/////////////////////////////////AAEBAgL/////////////////////////////////AAH+Av7/////////////////////////////////AAICAwP/////////////////////////////////AAH+AQP/////////////////////////////////AAICAgL/////////////////////////////////AAH+AQH/////////////////////////////////AAECAwP/////////////////////////////////AAAB/v7/////////////////////////////////AQECAgT/////////////////////////////////Av4CAAH/////////////////////////////////Av4DAQH/////////////////////////////////AQL/////////////////////////////////////AAH/////////////////////////////////////AQH/////////////////////////////////////////////////////////////////////////////",
+      "observation_before": "AAAAAAH/////////////////////////////////AAEBAgL/////////////////////////////////AAH+Av7/////////////////////////////////AAICAwP/////////////////////////////////AAH+AQP/////////////////////////////////AAICAgL/////////////////////////////////AAH+AQH/////////////////////////////////AAECAwP/////////////////////////////////AAAB/v7/////////////////////////////////AQECAgT/////////////////////////////////Av4CAAH/////////////////////////////////Av4DAQH/////////////////////////////////AQL/////////////////////////////////////AAH/////////////////////////////////////AQH/////////////////////////////////////////////////////////////////////////////",
+      "opened_cells": 58,
+      "reward": -10.0,
+      "step": 0,
+      "terminated": true,
+      "timestamp": 1789182548.1865323,
+      "truncated": false
+    }
+  ],
+  "width": 30
+}

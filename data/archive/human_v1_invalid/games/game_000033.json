@@ -1,0 +1,68 @@
+{
+  "action_counts": {
+    "chord": 1,
+    "flag": 0,
+    "open": 0
+  },
+  "action_encoding": "action_type*cells+cell",
+  "action_space": "flags",
+  "action_types": {
+    "0": "open",
+    "1": "flag",
+    "2": "chord"
+  },
+  "cells": 480,
+  "complete": true,
+  "derived_fields": [
+    "reward",
+    "newly_revealed",
+    "opened_cells"
+  ],
+  "difficulty": "expert",
+  "duration_s": 0.004011631011962891,
+  "ended_at": 1789182419.2345212,
+  "environment": "minesweeper.online",
+  "environment_version": "minesweeper.online/expert",
+  "final_opened_cells": 316,
+  "first_move": null,
+  "format": "minesweeper_human_game",
+  "format_version": 2,
+  "game_id": "game_000033",
+  "game_index": 33,
+  "height": 16,
+  "mines": 99,
+  "num_actions": 1440,
+  "observation_representation": "flag_aware_v1",
+  "observation_version": 1,
+  "other_clicks": 0,
+  "outcome": "lost",
+  "recorder_version": 1,
+  "result": "lost",
+  "reward_spec": "reveal_progress_terminal_v1",
+  "source": "human",
+  "started_at": 1789182419.2305095,
+  "total_steps": 1,
+  "transitions": [
+    {
+      "action": {
+        "action_id": 1405,
+        "action_type": 2,
+        "cell_index": 445,
+        "type": "chord",
+        "x": 25,
+        "y": 14
+      },
+      "game_status": "lost",
+      "newly_revealed": 0,
+      "observation_after": "AAAC/v4BAf4BAAAAAAEBAv//////////////////AQEC/gMBAQEBAAAAAAH+Av///////////////////gEBAQEAAAAAAQEBAAEC/wT/////////////////AQEBAQEAAAABAv4CAQID////////////////////AAAB/gICAQEB/gID/gP+/v4D/gIBAQEBAgL/////AQEBAv4C/gIDAgIC/gQE/gQDAgEAAAEBAv4C/////gEAAQECAv4D/gIBAv4DAgP+AgEAAAH+AgIE////AgIBAAAAAgIE/gIAAQID/gIC/gEBAQICAgL+////Af4CAQIBAv4DAgEAAAH+AgEBAgIC/gEB/gIC////AQEC/gP+AwL+AQAAAAEBAgICA/4DAgICAQEB////AAABAQP+AwIBAQAAAAAAAf7+Bv4DAv4CAAAC////AAABAQIC/gEAAAAAAQEBAQP+/v4DAv4CAQED////AAAC/gIBAgIBAQEBAf4BAAECBP4DAwMDA/4D////AAAC/gIAAf4CAv4BAQEBAAAAAQL+A/7+BP4D////AQECAQEAAQP+AwECAQEBAQEAAAEBA/7+BAP/////Af4BAAAAAAL+AgAB/gEB/gEAAAAAAQID/v//////",
+      "observation_before": "AAAC/v4BAf4BAAAAAAEBAv//////////////////AQEC/gMBAQEBAAAAAAH+Av///////////////////gEBAQEAAAAAAQEBAAEC/wT/////////////////AQEBAQEAAAABAv4CAQID////////////////////AAAB/gICAQEB/gID/gP+/v4D/gIBAQEBAgL/////AQEBAv4C/gIDAgIC/gQE/gQDAgEAAAEBAv4C/////gEAAQECAv4D/gIBAv4DAgP+AgEAAAH+AgIE////AgIBAAAAAgIE/gIAAQID/gIC/gEBAQICAgL+////Af4CAQIBAv4DAgEAAAH+AgEBAgIC/gEB/gIC////AQEC/gP+AwL+AQAAAAEBAgICA/4DAgICAQEB////AAABAQP+AwIBAQAAAAAAAf7+Bv4DAv4CAAAC////AAABAQIC/gEAAAAAAQEBAQP+/v4DAv4CAQED////AAAC/gIBAgIBAQEBAf4BAAECBP4DAwMDA/4D////AAAC/gIAAf4CAv4BAQEBAAAAAQL+A/7+BP4D////AQECAQEAAQP+AwECAQEBAQEAAAEBA/7+BAP/////Af4BAAAAAAL+AgAB/gEB/gEAAAAAAQID/v//////",
+      "opened_cells": 316,
+      "reward": -10.0,
+      "step": 0,
+      "terminated": true,
+      "timestamp": 1789182419.2345212,
+      "truncated": false
+    }
+  ],
+  "width": 30
+}
